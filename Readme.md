@@ -53,11 +53,12 @@ Este projeto consiste em uma API RESTful que realiza operações CRUD em usuári
 
     
     npm run dev # ou yarn dev
+    Apos criar um script para rodar o arquivo index-server.ts
     
 
 2. Acesse a API em [http://localhost:3333](http://localhost:3333)
 
-## Rotas
+## Rotas de Requisição
 
 - **POST /users**: Cadastra um novo usuário. Envia JSON com "nome" e "email".
 - **PUT /user/:id**: Atualiza os dados de um user específico. Envia JSON com os campos a serem atualizados.
